@@ -1,0 +1,82 @@
+<html>
+<head>
+
+			<title> HELLO RNSIT </title>
+			<script>
+			function greetfunction()
+			{
+					var x="";
+					var time=new Date().gethours();
+					if(time<17)
+					{
+						x="good day"
+					}
+					else
+					{
+						x="good evening"
+					}
+					alert(x);
+}
+
+					</script>
+
+</head>
+<body bgcolor="cyan">
+This is my first html document.
+<div>
+
+&nbsp;&nbsp;	<!--this is division -->
+</div>
+<table border="2">
+	<tr bgcolor="red">
+			<td>s.no</td>
+			<td>name</td>
+	</tr>
+	<tr>
+			<td>1</td>
+			<td>akshatha</td>
+	</tr>
+	<tr>
+			<td>2</td>
+			<td>aman</td>
+
+	</tr>
+	
+</table>
+
+<a href="http://google.com" 
+target="blank">go to google </a>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEzkIvHEMTbdfM101F07QcKfvF5UXxiWsMEr4Z4s5BmEHmFU7VCLfLImk">
+</img>
+<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRzd1zemx1Wlovwr2kwR5GL_kzVIFb4dSb12scYi-wPmwozcL2L">
+</img>
+<form method="get">
+	<table border="2">
+	<tr>
+		
+		<td>username:</td>
+		<td><input type="email" id="txt_username"></td>
+	</tr>
+	<tr>
+		<td>	password:</td>
+		<td><input type="password" id="txt_psswd"></td>
+	</tr>
+	<tr>
+	 <td> gender:</td>
+	 <td><input list="gender" ></td>
+	</tr>
+	<datalist id="gender">
+			<option value="male">
+			<option value="female">
+			</datalist>
+	              
+	<tr>
+		<td><input type="button" value="submit" id="btn_submit"></td>			
+		<td><input type="submit"></td>
+	</tr>
+	<tr> <input type="button" value="try it" id="greet" onclick="greetfunction()"></tr>
+	           
+</table>
+</form>
+</body>
+</html>
